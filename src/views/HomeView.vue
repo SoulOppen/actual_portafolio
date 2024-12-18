@@ -5,14 +5,15 @@ import Button from '@/components/ButtonComponent.vue'
   <section class="item-center grid grid-rows-[auto_1fr] h-full justify-center">
     <h1 class="text-center text-2xl md:text-3xl lg:text-4xl p-6">Ariel Oppenheimer L.</h1>
     <div class="flex flex-col justify-center mx-auto w-4/5 gap-12 lg:flex-row lg:items-center">
-      <div class="mx-auto md:w-4/5 lg:w-1/2">
+      <div class="mx-auto md:w-4/5 lg:w-1/4">
         <img
-          src="@/assets/img/developer_portafolio.png"
+          src="@/assets/img/yo.png"
           alt="img de computador"
-          class="aspect-square rounded-full object-cover h-full align-middle mx-auto md:w-1/2"
+          class="object-cover aspect-[2/5] align-middle mx-auto hover:scale-110"
         />
       </div>
-      <div class="lg:w-1/2">
+      <div class="lg:w-3/4">
+        <h2 class="text-2xl font-mono p-4">Acerca de mi</h2>
         <p class="text-balance">
           Desarrollador front-end especializado en Vue, con experiencia en interfaces de usuario
           interactivas y optimización de aplicaciones web. Enfocado en la creación de componentes
@@ -25,6 +26,11 @@ import Button from '@/components/ButtonComponent.vue'
             LinkedIn
           </Button>
         </div>
+        <img
+          src="@/assets/img/developer_portafolio.png"
+          alt="img de computador"
+          class="aspect-square rounded-full object-cover h-full align-middle mx-auto md:w-1/3"
+        />
       </div>
     </div>
   </section>
