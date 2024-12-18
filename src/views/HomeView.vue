@@ -20,8 +20,10 @@ import Button from '@/components/ButtonComponent.vue'
           Apasionado por mejorar la experiencia del usuario y el rendimiento de las aplicaciones.
         </p>
         <div class="flex flex-wrap justify-evenly gap-8 p-6">
-          <Button> Github </Button>
-          <Button> LinkedIn </Button>
+          <Button to="https://github.com/SoulOppen"> Github </Button>
+          <Button to="https://www.linkedin.com/in/ariel-oppenheimer-lewin-76b05a83/">
+            LinkedIn
+          </Button>
         </div>
       </div>
     </div>

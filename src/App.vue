@@ -24,7 +24,7 @@ setDarkModeBasedOnSystemPreference()
       </RouterLink>
       <RouterLink to="/about">Experiencia</RouterLink>
       <RouterLink to="/about">Proyectos</RouterLink>
-      <a href="mailto:arieloppenheimer@gmail.com">Contacto</a>
+      <RouterLink to="/about">Proyectos</RouterLink>
     </nav>
   </header>
   <main class="">
