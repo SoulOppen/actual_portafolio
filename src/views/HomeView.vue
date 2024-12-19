@@ -9,7 +9,7 @@ import Button from '@/components/ButtonComponent.vue'
         <img
           src="@/assets/img/yo.png"
           alt="img de computador"
-          class="object-cover aspect-[2/5] align-middle mx-auto hover:scale-110"
+          class="object-cover transform transition-transform duration-300 aspect-[2/5] align-middle mx-auto drop-shadow-[0_4px_4px_rgb(0,0,0)] dark:drop-shadow-[0_4px_4px_rgb(255,255,255)] hover:scale-110"
         />
       </div>
       <div class="lg:w-3/4">
@@ -29,7 +29,7 @@ import Button from '@/components/ButtonComponent.vue'
         <img
           src="@/assets/img/developer_portafolio.png"
           alt="img de computador"
-          class="aspect-square rounded-full object-cover h-full align-middle mx-auto md:w-1/3"
+          class="aspect-square rounded-full object-cover lg:h-full align-middle mx-auto w-3/4 md:w-1/4"
         />
       </div>
     </div>
