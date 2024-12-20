@@ -25,6 +25,20 @@ themeStore.setDarkModeBasedOnSystemPreference()
   <footer class="bg-electricBlue text-center">©{{ añoActual }} Ariel Oppenheimer</footer>
   <dialog
     v-if="dialog"
-    class="fixed inset-0 flex items-center justify-center h-screen w-full mx-auto bg-black/60"
-  ></dialog>
+    class="fixed inset-0 flex items-center justify-center h-screen w-full mx-auto bg-black/60 pointer-events-none"
+  >
+    <div
+      class="pointer-event-auto bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText w-4/5"
+    >
+      <div class="flex justify-between items-center content-center">
+        <Title>Contacto</Title>
+        <div
+          class="flex justify-center items-center rounded-full w-6 self-start m-2 bg-darkBg dark:bg-lightBg dark:text-lightText text-darkText pointer-events-auto cursor-pointer"
+          @click="() => (dialog = false)"
+        >
+          X
+        </div>
+      </div>
+    </div>
+  </dialog>
 </template>
