@@ -1,0 +1,55 @@
+{
+  "experience": [
+    {
+      "title": "Ingeniero de procesos",
+      "company": "Select Group",
+      "contract_type": "Profesional independiente",
+      "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+      "duration": "oct. 2018 - actualidad",
+      "details": [
+        "Procesar y simplificar datos para la toma de decisiones.",
+        "Creación de algoritmo en macro para envío masivo de informes financieros.",
+        "Estandarizar visualización de data de rentabilidad de proyecto.",
+        "Creación de extensión en Javascript para el sitio web."
+      ]
+    },
+    {
+      "title": "Analista Área De Estudios",
+      "company": "SOFOFA",
+      "contract_type": "Contrato temporal",
+      "location": "Región Metropolitana de Santiago, Chile",
+      "duration": "ene. 2016 - ene. 2016",
+      "details": [
+        "Generar indicadores de crecimiento de la economía de Chile.",
+        "Generar algoritmo de obtención de datos con Macros.",
+        "Análisis de datos Encuesta Casen con R."
+      ]
+    },
+    {
+      "title": "Demand Planner",
+      "company": "Cartim Beauty Solutions",
+      "contract_type": "Contrato temporal",
+      "location": "Región Metropolitana de Santiago, Chile",
+      "duration": "ago. 2015 - oct. 2015",
+      "details": [
+        "Realización de informes sobre rendimiento de productos con condicionales.",
+        "Toma de decisiones de la cantidad de producto a comprar (Solver).",
+        "Reporte a proveedores con información actualizada de stocks.",
+        "Optimización de los procesos de compras en función de la rentabilidad de la empresa."
+      ]
+    },
+    {
+      "title": "Ingeniero de sistemas",
+      "company": "Aservicesteam",
+      "contract_type": "Contrato de prácticas",
+      "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+      "duration": "ene. 2013 - ago. 2013",
+      "details": [
+        "Revisión diaria de datos con el objetivo de anticipar problemas futuros.",
+        "Generación de informes para clientes con indicadores claves.",
+        "Implementación de soluciones informáticas.",
+        "Generación de máquinas virtuales en Virtualbox."
+      ]
+    }
+  ]
+}
