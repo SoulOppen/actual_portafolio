@@ -18,5 +18,5 @@ export const useExperienceStore = defineStore('experience', () => {
       console.error('Ocurrió un error:', error)
     }
   }
-  return { experienceItem, experienceLength, addExperience }
+  return { experience, experienceItem, experienceLength, addExperience }
 })

@@ -14,7 +14,9 @@ const close = () => {
 }
 </script>
 <template>
-  <div class="bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText w-4/5">
+  <div
+    class="bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText h-[80dvh] overflow-y-auto w-4/5"
+  >
     <div class="flex justify-between items-center content-center pointer-events-auto">
       <Title>Contacto</Title>
       <div
