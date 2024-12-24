@@ -7,7 +7,7 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class="lg:hidden mx-auto overflow-y-auto h-[70vh] w-4/5">
+  <section class="lg:hidden mx-auto overflow-y-auto h-[70vh] w-4/5">
     <article v-for="exp in experienceStore.experience" :key="exp.id" class="m-4 p-2 border-4">
       <header class="flex justify-between">
         <div>
@@ -25,5 +25,5 @@ onMounted(async () => {
         </ul>
       </main>
     </article>
-  </div>
+  </section>
 </template>

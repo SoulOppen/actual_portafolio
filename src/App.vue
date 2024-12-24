@@ -23,7 +23,7 @@ onMounted(() => themeStore.setDarkModeBasedOnSystemPreference())
       </div>
     </div>
   </header>
-  <main class="pb-4">
+  <main>
     <RouterView />
   </main>
   <footer class="bg-electricBlue text-center">©{{ añoActual }} Ariel Oppenheimer</footer>
