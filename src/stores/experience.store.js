@@ -2,7 +2,7 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 export const useExperienceStore = defineStore('experience', () => {
   let experience = ref([])
-  const experienceItem = computed(() => (id) => experience[id])
+  const experienceItem = computed(() => (index) => experience.value[index])
   const experienceLength = computed(() => {
     return experience.value.length
   })
