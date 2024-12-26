@@ -7,11 +7,11 @@ import Paragraph from '@/components/ParagraphComponent.vue'
   <section class="grid grid-rows-[auto_1fr]">
     <Title>Ariel Oppenheimer L.</Title>
     <div class="lg:flex gap-2 mx-auto w-4/5 lg:flex-row">
-      <div class="mx-auto lg:w-1/4 lg:max-h-[80dvh]">
+      <div class="mx-auto lg:w-1/4 h-[60dvh]">
         <img
           src="@/assets/img/yo.png"
           alt="img de computador"
-          class="transform transition-transform duration-300 mx-auto drop-shadow-[0_4px_4px_rgb(0,0,0)] dark:drop-shadow-[0_4px_4px_rgb(255,255,255)] scale-75 hover:scale-90"
+          class="object-contain w-full h-full transform transition-transform duration-300 mx-auto drop-shadow-[0_4px_4px_rgb(0,0,0)] dark:drop-shadow-[0_4px_4px_rgb(255,255,255)] hover:scale-125"
         />
       </div>
       <div class="mx-auto pb-2 lg:w-3/4">
@@ -31,7 +31,7 @@ import Paragraph from '@/components/ParagraphComponent.vue'
         <img
           src="@/assets/img/developer_portafolio.png"
           alt="img de computador"
-          class="rounded-full object-cover mx-auto w-1/4"
+          class="rounded-full mx-auto w-1/3 lg:w-1/4 xl:w-1/5"
         />
       </div>
     </div>
