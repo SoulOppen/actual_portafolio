@@ -6,7 +6,7 @@ import Paragraph from '@/components/ParagraphComponent.vue'
 <template>
   <section class="grid grid-rows-[auto_1fr]">
     <Title>Ariel Oppenheimer L.</Title>
-    <div class="lg:flex gap-2 mx-auto w-4/5 lg:flex-row">
+    <div class="flex flex-colo items-center lg:flex gap-2 mx-auto w-4/5 lg:flex-row">
       <div class="mx-auto lg:w-1/4 h-[60dvh]">
         <img
           src="@/assets/img/yo.png"
