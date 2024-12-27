@@ -2,15 +2,27 @@
 import { onMounted, ref } from 'vue'
 import { RouterView } from 'vue-router'
 import { useThemeStore } from './stores/theme.store'
+import { useExperienceStore } from '@/stores/experience.store'
+import { useProjectStore } from '@/stores/project.store'
 import NavComponent from './components/NavComponent.vue'
 import ChangeColorButton from './components/ChangeColorButtonComponent.vue'
 import ContactButton from './components/ContactButtonComponent.vue'
 import Inside from './components/InsideComponent.vue'
 const themeStore = useThemeStore()
+const experienceStore = useExperienceStore()
+const projectStore = useProjectStore()
 const dialog = ref(false)
 const añoActual = new Date().getFullYear()
 const openDialog = () => (dialog.value = !dialog.value)
-onMounted(() => themeStore.setDarkModeBasedOnSystemPreference())
+onMounted(async () => {
+  try {
+    await experienceStore.addExperience()
+    await projectStore.addProject()
+  } catch (error) {
+    console.error(error)
+  }
+  themeStore.setDarkModeBasedOnSystemPreference()
+})
 </script>
 
 <template>
