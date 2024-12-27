@@ -2,7 +2,7 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 export const useProjectStore = defineStore('project', () => {
   let project = ref([])
-  const projectItem = computed(() => (index) => project.value[index])
+  const projectItem = computed(() => (id) => project.value.find((item) => item.id === id))
   const projectLength = computed(() => {
     return project.value.length
   })
@@ -11,6 +11,9 @@ export const useProjectStore = defineStore('project', () => {
   })
   const pagesProject = computed(() => {
     return (pag) => project.value.slice((pag - 1) * 4, Math.min(pag * 4, projectLength.value))
+  })
+  const projectId = computed(() => {
+    return project.value.map((item) => item.id)
   })
   const addProject = async () => {
     try {
@@ -24,5 +27,5 @@ export const useProjectStore = defineStore('project', () => {
       console.error('Ocurrió un error:', error)
     }
   }
-  return { project, projectItem, projectPages, pagesProject, projectLength, addProject }
+  return { project, projectId, projectItem, projectPages, pagesProject, projectLength, addProject }
 })
