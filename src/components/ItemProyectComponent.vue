@@ -8,12 +8,12 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-darkBg text-darkText dark:text-lightText dark:bg-lightBg shadow-md rounded-lg overflow-hidden"
+    class="aspect-[9/16] bg-darkBg text-darkText dark:text-lightText dark:bg-lightBg shadow-md rounded-lg overflow-hidden"
   >
-    <img :src="project.imagen" :alt="project.nombre" class="w-full h-48 object-cover" />
+    <img :src="project.imagen" :alt="project.nombre" class="w-full h-32 object-cover" />
     <div class="p-4">
-      <h2 class="text-xl font-semibold mb-2">{{ project.nombre }}</h2>
-      <p>{{ project.descripcion }}</p>
+      <h2 class="font-semibold mb-2 line-clamp-2">{{ project.nombre }}</h2>
+      <p class="line-clamp-4">{{ project.descripcion }}</p>
       <div class="mt-4">
         <span class="text-sm">Tecnologías: {{ project.tecnologias.join(',') }}</span>
       </div>

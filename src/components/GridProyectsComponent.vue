@@ -10,8 +10,8 @@ const changePage = (number) => {
 }
 </script>
 <template>
-  <section class="hidden md:block">
-    <div class="grid grid-col-3 lg:grid-cols-4 gap-6 w-5/6 mx-auto g-2">
+  <section class="hidden lg:block">
+    <div class="grid lg:grid-cols-4 gap-6 w-5/6 mx-auto g-2">
       <ItemProyect
         v-for="project in projectStore.pagesProject(currentPage)"
         :key="project.id"
