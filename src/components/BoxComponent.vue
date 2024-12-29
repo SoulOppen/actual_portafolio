@@ -13,7 +13,9 @@ const setOpen = () => {
 
 <template>
   <div class="rounded-md cursor-pointer mx-6 border-2 border-slate-500 m-4 text-darkText text-xl">
-    <div @click="setOpen" class="px-2 border-2 border-slate-700 bg-slate-700">{{ name }}</div>
+    <div @click="setOpen" class="px-2">
+      {{ name }}
+    </div>
     <div v-if="open" class="px-2 bg-slate-500">
       <slot />
     </div>
