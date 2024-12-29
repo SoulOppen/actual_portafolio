@@ -27,4 +27,10 @@ import Paragraph from '@/components/ParagraphComponent.vue'
       </a>
     </Paragraph>
   </section>
+  <section class="grid grid-cols-1 justify-items-center content-center p-6 md:grid-cols-2">
+    <img src="@/assets/img/vue.png" class="w-16" />
+    <img src="@/assets/img/pinia.png" class="w-16" />
+    <img src="@/assets/img/tailwind.png" class="w-16" />
+    <img src="@/assets/img/vite.png" class="w-16" />
+  </section>
 </template>
