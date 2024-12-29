@@ -10,7 +10,7 @@ const handleClick = () => {
 }
 </script>
 <template>
-  <button @click="handleClick" class="rounded-full aspect-square w-6 bg-accentElectricBlue">
+  <button @click="handleClick" class="rounded-full aspect-square w-6 bg-coral">
     <FontAwesomeIcon :icon="icono" />
   </button>
 </template>

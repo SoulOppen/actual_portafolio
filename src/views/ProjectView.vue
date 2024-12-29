@@ -15,7 +15,9 @@ console.log(actualProject.value)
 <template>
   <Title>{{ actualProject.nombre }}</Title>
   <div class="mx-auto w-4/5 md:w-3/5 lg:w-1/2">
-    <img :src="actualProject.imagen" class="aspect-[16/9] object-cover" />
+    <div class="md:w-1/2 mx-auto">
+      <img :src="actualProject.imagen" class="aspect-[16/9] object-cover" />
+    </div>
     <Paragraph>{{ actualProject.descripcion }}</Paragraph>
     <h2>Tecnología:</h2>
     <ul class="pl-6">
@@ -23,5 +25,10 @@ console.log(actualProject.value)
         {{ tech }}
       </li>
     </ul>
+    <a
+      :href="hola"
+      class="block rounded-full px-4 py-2 text-center bg-electricBlue hover:bg-accentElectricBlue w-1/2 mx-auto"
+      >ver pagina</a
+    >
   </div>
 </template>

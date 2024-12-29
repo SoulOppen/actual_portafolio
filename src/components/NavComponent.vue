@@ -3,7 +3,6 @@ import { reactive } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 const route = useRoute()
 let links = reactive([
-  { name: 'home', to: '/' },
   { name: 'experience', to: '/experience' },
   { name: 'projects', to: '/projects' },
   { name: 'about', to: '/about' },
@@ -12,7 +11,7 @@ let links = reactive([
 let active = (path) => path === route.path
 </script>
 <template>
-  <nav class="flex flex-1 justify-evenly items-center mx-auto max-lg:w-3/4">
+  <nav class="flex flex-1 flex-wrap justify-center items-center gap-8 mx-auto max-lg:w-3/4">
     <RouterLink
       v-for="link of links"
       :key="link.name"

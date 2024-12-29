@@ -1,8 +1,9 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import { RouterView } from 'vue-router'
+import { RouterView, RouterLink } from 'vue-router'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { useThemeStore } from './stores/theme.store'
 import { useExperienceStore } from '@/stores/experience.store'
 import { useProjectStore } from '@/stores/project.store'
@@ -10,6 +11,7 @@ import NavComponent from './components/NavComponent.vue'
 import ChangeColorButton from './components/ChangeColorButtonComponent.vue'
 import ContactButton from './components/ContactButtonComponent.vue'
 import Inside from './components/InsideComponent.vue'
+
 const themeStore = useThemeStore()
 const experienceStore = useExperienceStore()
 const projectStore = useProjectStore()
@@ -29,7 +31,10 @@ onMounted(async () => {
 
 <template>
   <header class="bg-electricBlue">
-    <div class="flex flex-wrap mx-auto md:w-3/4 lg:w-4/5">
+    <div class="flex flex-wrap justify-between items-center mx-auto md:w-3/4 lg:w-4/5">
+      <RouterLink to="/">
+        <FontAwesomeIcon :icon="faHome" />
+      </RouterLink>
       <NavComponent />
       <div class="flex flex-wrap item-center p-2 gap-2">
         <ContactButton @openContact="openDialog" />
