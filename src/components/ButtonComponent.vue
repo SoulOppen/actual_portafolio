@@ -9,7 +9,12 @@ const props = defineProps({
   <button
     class="rounded-3xl transition-color duration-300 w-full lg:w-1/3 px-2 py-4 bg-electricBlue hover:bg-accentElectricBlue"
   >
-    <a :href="props.to" target="_blank" rel="noopener noreferrer">
+    <a
+      :href="props.to"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex justify-center items-center gap-4"
+    >
       <slot />
     </a>
   </button>

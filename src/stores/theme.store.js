@@ -18,5 +18,5 @@ export const useThemeStore = defineStore('theme', () => {
     dark.value = dark.value == 'dark' ? '' : 'dark'
     changeColor()
   }
-  return { setColor, setDarkModeBasedOnSystemPreference }
+  return { dark, setColor, setDarkModeBasedOnSystemPreference }
 })

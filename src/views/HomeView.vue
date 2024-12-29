@@ -1,4 +1,6 @@
 <script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Title from '@/components/TitleComponent.vue'
 import Button from '@/components/ButtonComponent.vue'
 import Paragraph from '@/components/ParagraphComponent.vue'
@@ -23,8 +25,12 @@ import Paragraph from '@/components/ParagraphComponent.vue'
           Apasionado por mejorar la experiencia del usuario y el rendimiento de las aplicaciones.
         </Paragraph>
         <div class="flex flex-wrap justify-evenly gap-6 p-4">
-          <Button to="https://github.com/SoulOppen"> Github </Button>
+          <Button to="https://github.com/SoulOppen">
+            <FontAwesomeIcon :icon="faSquareGithub" class="text-4xl" />
+            Github
+          </Button>
           <Button to="https://www.linkedin.com/in/ariel-oppenheimer-lewin-76b05a83/">
+            <FontAwesomeIcon :icon="faLinkedin" class="text-4xl" />
             LinkedIn
           </Button>
         </div>
