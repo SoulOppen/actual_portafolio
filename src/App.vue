@@ -31,7 +31,9 @@ onMounted(async () => {
 
 <template>
   <header class="bg-electricBlue">
-    <div class="flex flex-wrap justify-between items-center mx-auto md:w-3/4 lg:w-4/5">
+    <div
+      class="flex flex-col md:flex-row flex-wrap justify-between items-center mx-auto md:w-3/4 lg:w-4/5"
+    >
       <RouterLink to="/">
         <FontAwesomeIcon :icon="faHome" />
       </RouterLink>
@@ -45,7 +47,9 @@ onMounted(async () => {
   <main>
     <RouterView />
   </main>
-  <footer class="flex flex-wrap justify-between items-center bg-electricBlue text-center px-12">
+  <footer
+    class="flex flex-col md:flex-row flex-wrap justify-between items-center bg-electricBlue text-center px-12"
+  >
     <div class="text-center flex-1">©{{ añoActual }} Ariel Oppenheimer</div>
     <div class="flex flex-wrap justify-evenly gap-6">
       <a href="https://github.com/SoulOppen" class="text-lg">

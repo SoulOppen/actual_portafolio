@@ -11,7 +11,9 @@ let links = reactive([
 let active = (path) => path === route.path
 </script>
 <template>
-  <nav class="flex flex-1 flex-wrap justify-center items-center gap-8 mx-auto max-lg:w-3/4">
+  <nav
+    class="flex flex-col md:flex-row flex-1 flex-wrap justify-center items-center gap-8 mx-auto max-lg:w-3/4"
+  >
     <RouterLink
       v-for="link of links"
       :key="link.name"
