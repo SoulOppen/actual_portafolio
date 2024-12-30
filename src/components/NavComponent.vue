@@ -3,9 +3,9 @@ import { reactive } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 const route = useRoute()
 let links = reactive([
-  { name: 'experience', to: '/experience' },
-  { name: 'projects', to: '/projects' },
-  { name: 'about', to: '/about' },
+  { name: 'experiencia', to: '/experience' },
+  { name: 'proyectos', to: '/projects' },
+  { name: 'acerca', to: '/about' },
 ])
 
 let active = (path) => path === route.path

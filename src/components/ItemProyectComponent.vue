@@ -9,18 +9,18 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="aspect-[9/15] grid grid-rows-[auto_1fr_auto] bg-darkBg text-darkText dark:text-lightText dark:bg-lightBg shadow-md rounded-lg overflow-hidden"
+    class="lg:aspect-[9/15] grid grid-rows-[auto_1fr_auto] bg-darkBg text-darkText dark:text-lightText dark:bg-lightBg shadow-md rounded-lg overflow-hidden"
   >
-    <img :src="project.imagen" :alt="project.nombre" class="w-full h-32 object-cover" />
-    <div class="p-4 flex flex-col justify-between">
+    <img :src="project.imagen" :alt="project.nombre" class="aspect-[16/9] w-full object-contain" />
+    <div class="p-4 lg:flex lg:flex-col lg:justify-between">
       <h2 class="font-semibold mb-2 line-clamp-2">{{ project.nombre }}</h2>
       <p class="line-clamp-4">{{ project.descripcion }}</p>
       <div class="mt-4">
-        <span class="text-sm">Tecnologías: {{ project.tecnologias.join(',') }}</span>
+        <span class="text-sm line-clamp-1">Tecnologías: {{ project.tecnologias.join(', ') }}</span>
       </div>
     </div>
     <div class="flex justify-evenly border-t-2 border-slate-400 p-2">
-      <a href="">Ver página</a>
+      <a href="project.pagina" target="_blank" rel="noopener noreferrer">Ver página</a>
       <RouterLink :to="`/projects/${project.id}`">Ver más</RouterLink>
     </div>
   </div>

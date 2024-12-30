@@ -19,13 +19,13 @@ const dialog = ref(false)
 const añoActual = new Date().getFullYear()
 const openDialog = () => (dialog.value = !dialog.value)
 onMounted(async () => {
+  themeStore.setDarkModeBasedOnSystemPreference()
   try {
     await experienceStore.addExperience()
     await projectStore.addProject()
   } catch (error) {
     console.error(error)
   }
-  themeStore.setDarkModeBasedOnSystemPreference()
 })
 </script>
 

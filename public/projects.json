@@ -1,72 +1,42 @@
 [
   {
-    "id": "d5f6e5d0-7d5c-4fae-a28c-ffb567c26b4b",
-    "nombre": "Generador de Eliminatorias",
-    "descripcion": "Aplicación que permite a los usuarios ingresar nombres para generar un formato de eliminatorias. Completa automáticamente los cupos para alcanzar una potencia de 2 y muestra los enfrentamientos en un modal gráfico.",
-    "tecnologias": ["HTML", "Tailwind CSS", "JavaScript"],
-    "imagen": "https://example.com/images/generador-eliminatorias.png"
+    "id": "c3b7e6d9-9a3e-4fcb-a7f9-e8f4c62c9b45",
+    "nombre": "Visor de Héroes de Heroes of the Storm",
+    "descripcion": "Aplicación desarrollada en Vue.js que permite explorar los héroes de Heroes of the Storm. Proporciona detalles como habilidades, roles, franquicia de origen, y estadísticas clave. La navegación es intuitiva gracias a Vue Router, y el diseño atractivo está construido con Vuetify.",
+    "tecnologias": ["Vue.js", "Vuex", "Vue Router", "Vuetify", "Vite", "Firebase"],
+    "imagen": "/img/heroOfTheStorm.png",
+    "pagina": "https://stormheroes-8e0f1.web.app/"
   },
   {
-    "id": "ec762e5c-8d75-4b58-bb1c-4729a9b5efc2",
-    "nombre": "Sitio Educativo contra el Phishing",
-    "descripcion": "Página web dirigida a niños de 10-14 años que explica de manera interactiva el phishing y otras estafas web. Utiliza diseño responsivo y un lenguaje accesible.",
-    "tecnologias": ["HTML", "Tailwind CSS", "JavaScript"],
-    "imagen": "https://example.com/images/sitio-phishing.png"
+    "id": "12345678-1234-1234-1234-1234567890ab",
+    "nombre": "Coffee Style Challenge",
+    "descripcion": "Página creada para el desafío de Coffee Style en DevChallenges. Incluye un diseño responsive, funcionalidad interactiva y está optimizada para una experiencia de usuario fluida.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "Vue.js", "Vercel"],
+    "imagen": "/img/coffee.png",
+    "pagina": "https://dev-challenges-coffe-git-main-oppens-projects.vercel.app/"
   },
   {
-    "id": "f1d672a3-03d6-4d29-812e-94f2bba51b8d",
-    "nombre": "Clon de Twitter",
-    "descripcion": "Aplicación web funcional que replica las características básicas de Twitter, incluyendo la publicación de tweets, likes y un feed dinámico.",
-    "tecnologias": ["Vue 3", "Pinia", "Tailwind CSS", "Vite"],
-    "imagen": "https://example.com/images/clon-twitter.png"
+    "id": "23456789-2345-2345-2345-234567890abc",
+    "nombre": "Social Links Profile",
+    "descripcion": "Tarjeta reactiva para redes sociales, diseñada con HTML, CSS y JavaScript. Creada como parte de un desafío de Frontend Mentor, mostrando un diseño interactivo de perfil con enlaces a redes sociales.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    "imagen": "/img/socialLinksProfile.png",
+    "pagina": "https://souloppen.github.io/frontend_Social-links-profile/"
   },
   {
-    "id": "4c571b1f-d572-41f6-836a-65e6f865a33f",
-    "nombre": "Gestor de Tareas con Drag & Drop",
-    "descripcion": "Aplicación web que permite gestionar tareas en diferentes estados (pendiente, en progreso, completado) con una interfaz de arrastrar y soltar.",
-    "tecnologias": ["Vue 3", "Tailwind CSS", "JavaScript"],
-    "imagen": "https://example.com/images/gestor-tareas.png"
+    "id": "34567890-3456-3456-3456-345678901234",
+    "nombre": "FAQ Accordion",
+    "descripcion": "Accordion interactivo de preguntas frecuentes, diseñado con HTML, CSS y JavaScript. Creado como parte de un desafío de Frontend Mentor, con un diseño limpio y funcional que permite expandir y colapsar las respuestas de las preguntas frecuentes.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    "imagen": "/img/faqAccordion.png",
+    "pagina": "https://souloppen.github.io/frontend_mentor-faq-accordion/"
   },
   {
-    "id": "bf124ad1-09ab-481e-9bbf-08b9e53df1ad",
-    "nombre": "Visualizador de Datos COVID-19",
-    "descripcion": "Dashboard interactivo que muestra gráficos y estadísticas en tiempo real sobre la pandemia del COVID-19, utilizando APIs públicas.",
-    "tecnologias": ["D3.js", "Vue 3", "Tailwind CSS", "APIs"],
-    "imagen": "https://example.com/images/visualizador-covid.png"
-  },
-  {
-    "id": "db3f30ea-9726-4352-8b41-3a739a8b6986",
-    "nombre": "Juego del Ahorcado",
-    "descripcion": "Juego interactivo del ahorcado donde los usuarios intentan adivinar palabras ocultas. Incluye niveles de dificultad y diseño amigable.",
-    "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "imagen": "https://example.com/images/ahorcado.png"
-  },
-  {
-    "id": "7d6b64eb-12a6-4a35-bf56-f472b1ec1e9a",
-    "nombre": "Portafolio Personal",
-    "descripcion": "Portafolio personal que incluye proyectos destacados, una biografía breve y un formulario de contacto. Incluye un modo claro y oscuro con una paleta vibrante.",
-    "tecnologias": ["Vue 3", "Tailwind CSS", "JavaScript"],
-    "imagen": "https://example.com/images/portafolio-personal.png"
-  },
-  {
-    "id": "f4d63c15-59c1-4733-9c71-cf4f4826e36a",
-    "nombre": "Tienda Online Simulada",
-    "descripcion": "Página web de comercio electrónico con funcionalidades básicas como catálogo de productos, carrito de compras y proceso de pago simulado.",
-    "tecnologias": ["Vue 3", "Pinia", "Tailwind CSS", "Vite"],
-    "imagen": "https://example.com/images/tienda-online.png"
-  },
-  {
-    "id": "8565c7e1-5b8b-4f82-9206-e9468f9b77e4",
-    "nombre": "Conversor de Monedas",
-    "descripcion": "Herramienta web que permite convertir entre diferentes monedas en tiempo real utilizando datos de una API de cambio de divisas.",
-    "tecnologias": ["Vue 3", "Tailwind CSS", "APIs"],
-    "imagen": "https://example.com/images/conversor-monedas.png"
-  },
-  {
-    "id": "c947a174-1b92-49a8-beb4-49a44f6e4a76",
-    "nombre": "Calculadora Científica",
-    "descripcion": "Calculadora interactiva con funcionalidades avanzadas como operaciones trigonométricas, logarítmicas y manejo de historial de cálculos.",
-    "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "imagen": "https://example.com/images/calculadora-cientifica.png"
+    "id": "45678901-4567-4567-4567-456789012345",
+    "nombre": "Star Wars Fetch",
+    "descripcion": "Página que utiliza la API de Star Wars (https://swapi.py4e.com/) para obtener y mostrar información sobre los personajes de Star Wars. Utiliza funciones generadoras de JavaScript para gestionar los datos de forma eficiente.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    "imagen": "/img/starWarsFetch.png",
+    "pagina": "https://souloppen.github.io/Curso_Vue_star_wars_fetch/"
   }
 ]
