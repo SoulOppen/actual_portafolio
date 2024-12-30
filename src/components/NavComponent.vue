@@ -5,7 +5,7 @@ const route = useRoute()
 let links = reactive([
   { name: 'experiencia', to: '/experience' },
   { name: 'proyectos', to: '/projects' },
-  { name: 'acerca', to: '/about' },
+  { name: 'información pagina', to: '/about' },
 ])
 
 let active = (path) => path === route.path

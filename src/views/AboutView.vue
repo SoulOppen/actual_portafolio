@@ -4,7 +4,7 @@ import Paragraph from '@/components/ParagraphComponent.vue'
 </script>
 <template>
   <section class="mx-auto w-11/12 md:w-4/5 lg:3/4">
-    <Title>About</Title>
+    <Title>Información pagina</Title>
     <Paragraph>
       Gracias por visitar mi portafolio. Agradezco sinceramente tu tiempo e interés en conocer mi
       trabajo. Este espacio refleja mi trayectoria, habilidades y aspiraciones. ¡Espero que lo
