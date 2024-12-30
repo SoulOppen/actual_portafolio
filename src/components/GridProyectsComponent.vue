@@ -25,7 +25,7 @@ const changePage = (number) => {
         <FontAwesomeIcon
           v-if="currentPage > 1"
           :icon="faArrowCircleLeft"
-          class="text-electricBlue text-4xl"
+          class="text-electricBlue transition-colors duration-75 hover:text-accentElectricBlue text-4xl"
         />
       </button>
       <span class="mx-4 self-center">{{ currentPage }} de {{ totalPages }}</span>
@@ -33,7 +33,7 @@ const changePage = (number) => {
         <FontAwesomeIcon
           v-if="currentPage < totalPages"
           :icon="faArrowCircleRight"
-          class="text-electricBlue text-4xl"
+          class="text-electricBlue transition-colors duration-75 hover:text-accentElectricBlue text-4xl"
         />
       </button>
     </div>

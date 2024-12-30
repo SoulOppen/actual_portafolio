@@ -10,7 +10,6 @@ const props = defineProps({
   },
 })
 const actualProject = computed(() => projectStore.projectItem(props.id))
-console.log(actualProject.value)
 </script>
 <template>
   <Title>{{ actualProject.nombre }}</Title>
@@ -27,8 +26,8 @@ console.log(actualProject.value)
     </ul>
     <a
       :href="hola"
-      class="block rounded-full px-4 py-2 text-center bg-electricBlue hover:bg-accentElectricBlue w-1/2 mx-auto"
-      >ver pagina</a
+      class="block rounded-full px-4 py-2 text-center transition-color duration-100 bg-electricBlue hover:bg-accentElectricBlue hover:text-white w-1/2 mx-auto"
+      >ver página</a
     >
   </div>
 </template>

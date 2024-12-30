@@ -19,13 +19,19 @@ const decRender = () => (render.value -= 1)
   >
     <div>
       <button v-if="!inicio" @click="decRender">
-        <FontAwesomeIcon :icon="faArrowCircleLeft" class="text-blue-600 text-4xl" />
+        <FontAwesomeIcon
+          :icon="faArrowCircleLeft"
+          class="text-electricBlue transition-colors duration-75 hover:text-accentElectricBlue text-4xl"
+        />
       </button>
     </div>
     <ExperienceItem :experience="exp" />
     <div>
       <button v-if="!final" @click="incRender">
-        <FontAwesomeIcon :icon="faArrowCircleRight" class="text-blue-600 text-4xl" />
+        <FontAwesomeIcon
+          :icon="faArrowCircleRight"
+          class="text-electricBlue transition-colors duration-75 hover:text-accentElectricBlue text-4xl"
+        />
       </button>
     </div>
   </section>

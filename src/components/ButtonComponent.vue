@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 <template>
   <button
-    class="rounded-3xl transition-color duration-300 w-full lg:w-1/3 px-2 py-4 bg-electricBlue hover:bg-accentElectricBlue"
+    class="rounded-3xl transition-color duration-300 w-full lg:w-1/3 px-2 py-4 bg-electricBlue hover:bg-accentElectricBlue hover:text-white"
   >
     <a
       :href="props.to"
