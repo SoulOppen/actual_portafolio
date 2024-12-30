@@ -15,7 +15,7 @@ import developer from '@/assets/img/developer_portafolio.png'
         <img
           :src="yo"
           alt="img de computador"
-          class="object-contain w-full h-full transform transition-transform duration-300 mx-auto drop-shadow-[0_4px_4px_rgb(0,0,0)] dark:drop-shadow-[0_4px_4px_rgb(255,255,255)] hover:scale-125"
+          class="object-contain w-full h-full transform transition-transform duration-300 mx-auto drop-shadow-[0_4px_4px_rgb(0,0,0)] dark:drop-shadow-[0_4px_4px_rgb(255,255,255)] lg:hover:scale-125"
         />
       </div>
       <div class="mx-auto pb-2 lg:w-3/4">
