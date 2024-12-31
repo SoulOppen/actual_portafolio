@@ -13,9 +13,9 @@ const page = (text) => text.includes('https')
     :href="props.text"
     target="_blank"
     rel="noopener noreferrer"
-    class="hover:text-accentElectricBlue"
+    class="truncate text-sm lg:text-base hover:text-accentElectricBlue"
   >
     {{ props.text }}
   </a>
-  <p v-else>{{ props.text }}</p>
+  <p v-else class="truncate text-sm lg:text-base">{{ props.text }}</p>
 </template>
