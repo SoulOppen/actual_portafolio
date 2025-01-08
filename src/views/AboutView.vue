@@ -32,7 +32,7 @@ import ViteIcon from '@/components/icons/ViteIcon.vue'
     </Paragraph>
   </section>
   <section class="grid grid-cols-1 gap-2 justify-items-center content-center p-6 md:grid-cols-2">
-    <VueIcon class="h-24 mx-auto" />
+    <VueIcon class="h-16 md:h-24 mx-auto" />
     <PiniaIcon class="h-24 mx-auto" />
     <TailwindIcon class="h-24 mx-auto" />
     <ViteIcon class="h-24 mx-auto" />
