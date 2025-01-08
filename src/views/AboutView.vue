@@ -1,6 +1,10 @@
 <script setup>
 import Title from '@/components/TitleComponent.vue'
 import Paragraph from '@/components/ParagraphComponent.vue'
+import VueIcon from '@/components/icons/VueIcon.vue'
+import PiniaIcon from '@/components/icons/PiniaIcon.vue'
+import TailwindIcon from '@/components/icons/TailwindIcon.vue'
+import ViteIcon from '@/components/icons/ViteIcon.vue'
 </script>
 <template>
   <section class="mx-auto w-11/12 md:w-4/5 lg:3/4">
@@ -27,10 +31,10 @@ import Paragraph from '@/components/ParagraphComponent.vue'
       </a>
     </Paragraph>
   </section>
-  <section class="grid grid-cols-1 justify-items-center content-center p-6 md:grid-cols-2">
-    <img src="@/assets/img/vue.png" class="w-16" />
-    <img src="@/assets/img/pinia.png" class="w-16" />
-    <img src="@/assets/img/tailwind.png" class="w-16" />
-    <img src="@/assets/img/vite.png" class="w-16" />
+  <section class="grid grid-cols-1 gap-2 justify-items-center content-center p-6 md:grid-cols-2">
+    <VueIcon class="h-24 mx-auto" />
+    <PiniaIcon class="h-24 mx-auto" />
+    <TailwindIcon class="h-24 mx-auto" />
+    <ViteIcon class="h-24 mx-auto" />
   </section>
 </template>
