@@ -33,9 +33,9 @@ const actualProject = computed(() => projectStore.projectItem(props.id))
         :href="actualProject.pagina"
         target="_blank"
         rel="noopener noreferrer"
-        class="block rounded-full px-4  text-center transition-color duration-100 bg-electricBlue hover:bg-accentElectricBlue hover:text-white w-1/2 mx-auto"
+        class="block rounded-full px-4  text-center transition-color duration-100 bg-electricBlue hover:bg-accentElectricBlue hover:text-white w-1/2 mx-auto p-2"
         >ver página
       </a>
     </div>
-  </div>
+  </div>t
 </template>
