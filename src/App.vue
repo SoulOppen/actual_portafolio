@@ -44,7 +44,7 @@ onMounted(async () => {
       </div>
     </div>
   </header>
-  <main>
+  <main class="lg:overflow-auto lg:min-h-0">
     <RouterView />
   </main>
   <footer

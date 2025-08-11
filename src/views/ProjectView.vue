@@ -14,13 +14,13 @@ const actualProject = computed(() => projectStore.projectItem(props.id))
 <template>
   <Title>{{ actualProject.nombre }}</Title>
   <div
-    class="flex flex-col lg:-flex-row flex-wrap justify-center items-center lg:h-3/4 w-4/5 mx-auto gap-2"
+    class="flex flex-col lg:-flex-row flex-wrap justify-center items-center lg:h-3/4 w-4/5 mx-auto"
   >
     <div class="lg:w-1/2">
       <img :src="actualProject.imagen" />
     </div>
 
-    <div class="lg:w-2/5 p-2">
+    <div class="lg:w-2/5">
       <Paragraph>{{ actualProject.descripcion }}</Paragraph>
       <h2>Tecnología:</h2>
       <ul class="pl-6">
@@ -33,7 +33,7 @@ const actualProject = computed(() => projectStore.projectItem(props.id))
         :href="actualProject.pagina"
         target="_blank"
         rel="noopener noreferrer"
-        class="block rounded-full px-4 py-2 text-center transition-color duration-100 bg-electricBlue hover:bg-accentElectricBlue hover:text-white w-1/2 mx-auto"
+        class="block rounded-full px-4  text-center transition-color duration-100 bg-electricBlue hover:bg-accentElectricBlue hover:text-white w-1/2 mx-auto"
         >ver página
       </a>
     </div>

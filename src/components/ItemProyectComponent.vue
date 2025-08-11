@@ -20,7 +20,7 @@ const props = defineProps({
       </div>
     </div>
     <div class="flex justify-evenly border-t-2 border-slate-400 p-2">
-      <a href="project.pagina" target="_blank" rel="noopener noreferrer">Ver página</a>
+      <a :href="project.pagina" target="_blank" rel="noopener noreferrer">Ver página</a>
       <RouterLink :to="`/projects/${project.id}`">Ver más</RouterLink>
     </div>
   </div>
